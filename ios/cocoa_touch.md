@@ -64,4 +64,4 @@
 - Touch, Press, Gesture: 제스처 인식기를 통한 이벤트 처리 로직
 - Drag and Drop: 화면 위에서 드래그 앤 드롭 기능
 - Peek and Pop: 3D 터치에 대응한 미리 보기 기능
-- Keyboard and Menu: 키보드 입력을 처리 및 사용자 정의 메뉴 표시<br/><br/>
+- Keyboard and Menu: 키보드 입력을 처리 및 사용자 정의 메뉴 표시
