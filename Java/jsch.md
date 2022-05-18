@@ -6,11 +6,12 @@
 
   1. 수신 서버의 정보(IP계정, PW, PORT 등등..)
   2. 수신 서버의 파일 저장경로
-  3. 송신 측 파일 경로
-
-- 예제 코드 사용방법
+  3. 송신 측 파일 경로 <br/><br/>
 
 ```
+- 예제 코드 사용방법
+
+
 import java.util.Properties;
 
 import com.jcraft.jsch.Channel;
