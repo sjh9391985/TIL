@@ -19,6 +19,72 @@
     - 처리 성능을 위하여 transaction을 묶어서 처리함
     - 블록 단위로 Proof-of-work를 실행하여 네트워크 참여자들 간의 합의를 이룸
     - 신규 블록에 대한 보상으로 신규 coin을 지급하여 mining이라고 함
+
+- EVM
+    - 이더리움 네트워크에서 스마트 계약이 실행되는 환경
+    - 외부와의 통신 및 파일을 생성하거나 읽는것이 불가능함
+    - 외부계정: 공개키에 의해 통제, 사람이 컨트롤함, 지갑이라고 불림
+    - 계약계정: 코드에 의한 통제, address는 contract 생성시간에 의해서 생성됨
+
+- GAS
+    - 이더리움 경제 생태계를 유지하고 무한 루프와 같은 과도한 스마트 계약의 실행을 방지하는 역할
+    - GAS Price: 송신자에 의해 결정됨
+    - 소모된 GAS는 환불처리 되지 않고 채굴자에게 지불됨
+
+- Storage
+    - 각 Account는 이더리움 네트워크 상에서 Storage라고 불리는 영구적인 메모리 영역을 가짐(key-value 방식)
+
+- Memory
+    - 스마트 계약이 실행될 때 생성되며 실행이 종료되면 사라지는 일종의 휘발성 데이터 저장소
+    - 256bit 단위로 확장
+
+- Stack
+    - 스마트 계약의 연산물이 처리될 때 사용되는 데이터 저장소 영역
+
+<h3>스마트 계약 구조</h3>
+
+- State Variables
+    - 스마트 계약에서 사용되는 변수
+
+- Functions
+    - SimpleStorage Contract는 set()과 get() 함수를 가짐
+
+- Function Modifiers
+    - 함수의 로직을 선언단계에서 수정하거나 체크하는데 사용됨
     
+- Event
+    - event를 통해서 선언됨
+    - EVM 의 Log를 생성하는데 사용됨
+    - emit를 통해서 event가 호출됨
+
+- Struct Types
+    - 개발자가 정의하는 변수 유형으로 여러 변수를 포함
+    - struct를 통해서 선언됨
+
+
+<h3>데이터 유형</h3>
+
+- Value Types : Value 유형으로 선언된 변수에 값이 복사되어 할당
+
+    - Booleans: true/false 가능
+    - Integers: int(양수, 음수 가짐)/ uint(양수정수 가짐)
+    - Address: 스마트 계약의 계약주소를 저장하는데 사용됨
+    - Byte arrays: 고정, 동적크기 byte array 가 있음
+    - 다른 프로그래밍 언어와 달리 float 유형을 지원하지 않음
+    - conversions: 변수에 값을 할당시 기본적인 데이터 유형 간의 변환이 가능
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
 
 
