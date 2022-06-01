@@ -60,7 +60,20 @@
 - Struct Types
     - 개발자가 정의하는 변수 유형으로 여러 변수를 포함
     - struct를 통해서 선언됨
+
+
+<h3>데이터 유형</h3>
+
+- Value Types : Value 유형으로 선언된 변수에 값이 복사되어 할당
+
+    - Booleans: true/false 가능
+    - Integers: int(양수, 음수 가짐)/ uint(양수정수 가짐)
+    - Address: 스마트 계약의 계약주소를 저장하는데 사용됨
+    - Byte arrays: 고정, 동적크기 byte array 가 있음
+    - 다른 프로그래밍 언어와 달리 float 유형을 지원하지 않음
+    - conversions: 변수에 값을 할당시 기본적인 데이터 유형 간의 변환이 가능
     
+
 
 
 
