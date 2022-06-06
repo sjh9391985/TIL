@@ -112,7 +112,32 @@
     - tx.gasprice: transaction의 gas price
 
     - tx.origin: transaction sender의 주소
-    
+
+- contract
+    - object-oriented 언어에서 class와 유사함
+    - Solidity를 contract-oriented 언어라고 부르기도 함
+
+- contract 생성 시
+    - constructor 키워드로 선언된 함수 contract가 최초 생성 시 호출
+    - constructor는 오직 한 번 선언이 가능하며 override가 불가능함
+
+- visibility
+    - 스마트 계약의 주요 구성요소인 함수와 state 변수에 대한 접근 여부를 말함
+
+    - state variable 접근 유형
+        1. External은 타 스마트 계약 및 거래를 통해서 호출이 가능
+        2. public은 내부 호출 또는 message call을 통해서 호출 또는 접근이 가능
+        3. Internal로 선언된 함수 및 변수는 해당 Contract 내부적으로만 접근이 가능
+        4. private의 solidity contract도 object와 같이 상속이 가능함
+
+    - constant state variables: 변경되지 않은 상숫값 변수를 선언할 때 사용됨
+
+    - Function Overloading
+        - Contract 내 함수에서 동일한 함수명을 쓰되 다른 유형 및 개수의 Input Parameters를 쓰는 복수의 함수를 선언할 수 있음
+        
+
+
+
 
     
 
