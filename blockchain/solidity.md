@@ -72,11 +72,47 @@
     - Byte arrays: 고정, 동적크기 byte array 가 있음
     - 다른 프로그래밍 언어와 달리 float 유형을 지원하지 않음
     - conversions: 변수에 값을 할당시 기본적인 데이터 유형 간의 변환이 가능
+
+<h3>Solidity 언어의 변수</h3>
+
+    - 1 ehter
+        = 1,000 finney
+        = 1,000,000 szabo
+        = 1,000,000,000,000,000,000 wei
     
+    - gwei, kwei 단위
+        - 논리적인 단위
+        - Solidity에서 사용 가능한 Ethereum 단위는 아님
 
+    - Time Units
+        - 시간 단위로 seconds, minutes, hours, days, weeks 를 사용가능(단위를 명시하지 않으면 seconds로 간주)
+    
+    - blockhash(unit blocknumber): 주어진 blockNumber에 해당하는 hash값을 리턴
 
+    - block.coinbase: 현재 블록 마이너의 주소
 
+    - block.difficulty: 현재 블록의 채굴 난이도
 
+    - block.gaslimit: 현재 블록의 가스 리미트
+
+    - block.number: 현재 블록의 넘버
+
+    - block.timestamp: 현재 블록의 timestamp로서 unix epoch 이후 초 단위를 알려줌
+
+    - gasleft(): 남은 가스량
+
+    - msg.data: 현재 message call의 전체 data
+
+    - msg.sig: msg.data 또는 Call Data의 첫 4 byte, 함수 ID로 사용됨
+
+    - msg.value: 현재 message call과 함께 전송된 Ether, wei 단위로 표현됨
+
+    - now: 현재 블록의 timestamp
+
+    - tx.gasprice: transaction의 gas price
+
+    - tx.origin: transaction sender의 주소
+    
 
     
 
