@@ -2,7 +2,7 @@
 
 ### 문제
 
-<img src="/Users/sonjaehyeon/Documents/til/TIL/images/이상한문자만들기.png">
+<img src="https://github.com/sjh9391985/TIL/blob/main/images/%EC%9D%B4%EC%83%81%ED%95%9C%EB%AC%B8%EC%9E%90%EB%A7%8C%EB%93%A4%EA%B8%B0.png?raw=true">
 
 ### 풀이
 
