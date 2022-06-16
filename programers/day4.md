@@ -2,7 +2,7 @@
 
 ### 문제
 
-<img src="https://github.com/sjh9391985/TIL/blob/main/images/%EA%B0%84%EA%B2%A9%EC%9E%88%EB%8A%94n%EA%B0%9C%EC%88%AB%EC%9E%90.png?raw=true">
+<img src="">
 
 ### 풀이
 
