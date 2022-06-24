@@ -52,4 +52,4 @@ string solution(int num) {
 }
 ```
 
-- 비트 연산을 통해 결과값을 도출
+- 비트 연산 AND를 통해 결과값을 도출
