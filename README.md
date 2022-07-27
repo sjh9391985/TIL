@@ -1,5 +1,4 @@
-# TIL
-
+# TIL ✍️
 - Today I Learned!
 
 > [Blockchain](https://github.com/sjh9391985/TIL/tree/main/blockchain)
