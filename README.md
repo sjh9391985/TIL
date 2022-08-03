@@ -1,4 +1,5 @@
 # TIL ✍️
+
 - Today I Learned!
 
 > [Blockchain](https://github.com/sjh9391985/TIL/tree/main/blockchain)
@@ -15,5 +16,6 @@
 
 > [Spring](https://github.com/sjh9391985/TIL/tree/main/Spring)
 
-> [도서](https://github.com/sjh9391985/TIL/tree/main/book)
+> [TypeScript](https://github.com/sjh9391985/TIL/tree/main/typescript)
 
+> [도서](https://github.com/sjh9391985/TIL/tree/main/book)
