@@ -11,3 +11,7 @@
 > [useClick](https://github.com/sjh9391985/TIL/blob/main/React/useClick.js)
 
 > [useConfirm](https://github.com/sjh9391985/TIL/blob/main/React/useConfirm.js)
+
+> [usePreventLeave](https://github.com/sjh9391985/TIL/blob/main/React/usePreventLeave.js)
+
+> [useBeforeLeave](https://github.com/sjh9391985/TIL/blob/main/React/useBeforeLeave.js)
