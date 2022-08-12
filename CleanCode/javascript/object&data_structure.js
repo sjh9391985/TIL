@@ -58,7 +58,7 @@ const employee = new Employee("John Doe");
 console.log(`Employee name : ${employee.getName()}`); // Employee name : John Doe
 
 delete employee.name;
-console.log(`Employee name : ${employee.getName()}`); // Employee name :
+console.log(`Employee name : ${employee.getName()}`); // Employee name : undefined
 
 // 좋은 예
 function makeEmployee(name) {
