@@ -24,4 +24,6 @@
 
 > [Springboot](https://github.com/sjh9391985/TIL/tree/main/Springboot)
 
+> [Kafka](https://github.com/sjh9391985/TIL/tree/main/Kafka)
+
 > [도서](https://github.com/sjh9391985/TIL/tree/main/book)
