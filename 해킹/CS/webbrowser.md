@@ -12,3 +12,11 @@
 4.  HTTP를 통해 주소에 요청
 5.  주소의 HTTP 응답 수신
 6.  리소스 다운로드 및 웹 렌더링 (HTML, CSS, Javascript)
+
+### URL
+
+\- Uniform Resource Locator의 약자
+
+\- 웹에 있는 리소스의 위치를 표현하는 문자열
+
+\- 브라우저로 특정 웹 리소스에 접근시, URL을 사용해 이를 서버에게 요청
